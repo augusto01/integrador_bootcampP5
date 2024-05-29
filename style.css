@@ -1,3 +1,96 @@
-body{
-    background-color: greenyellow;
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    place-items: center;
+    background-color: rgb(28, 28, 136);
+    margin: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #1c1c88;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Ajusta según el tamaño deseado del contenedor */
+    max-width: 600px; /* Ajusta el máximo ancho del contenedor */
+
+}
+/*DIV CIUDAD*/
+.container_descripcion{
+    display: flex;
+}
+.container_ciudades{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    background-color: none;
+    border: solid white 2px;
+    border-radius: 10px;
+
+}
+
+.ciudad{
+    margin: 20px;
+    padding: 2px;
+}
+
+
+.descripcion{
+ color: white;
+
+}
+
+.icon_clima{
+
+}
+
+/*BARRA DE BUSQUEDA DE LA CIUDAD*/
+.lbl_search {
+    font-size: 16px;
+    height: 30px;
+    background-color: rgb(28, 28, 136);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-right: 10px;
+    flex-basis: 33.3%;
+    text-align: center;
+}
+
+.search_input {
+    flex-grow: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.button_buscar {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 6, 46);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
 }

@@ -1,1 +1,14 @@
-window.alert('Hola buenas tardes')
+document.addEventListener('DOMContentLoaded', function (){
+
+
+    function cargarCiudad(){
+        
+
+
+    }
+
+
+
+
+
+})
