@@ -37,7 +37,9 @@ body {
     border-radius: 10px;
 
 }
-
+.nombre-ciudad{
+    color: white;
+}
 .ciudad{
     margin: 20px;
     padding: 2px;
@@ -45,13 +47,17 @@ body {
 
 
 .descripcion{
- color: white;
+ color: gray;
 
 }
 
-.icon_clima{
-
+.icon {
+    width: 80px;
+    height: 80px;
 }
+
+
+
 
 /*BARRA DE BUSQUEDA DE LA CIUDAD*/
 .lbl_search {
@@ -90,7 +96,3 @@ body {
     padding: 0;
 }
 
-.icon {
-    width: 24px;
-    height: 24px;
-}
