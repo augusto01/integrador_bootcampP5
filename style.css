@@ -12,7 +12,9 @@ body {
     background-color: rgb(28, 28, 136);
     margin: 20px;
 }
-
+.hidden {
+    display: none;
+}
 .search-container {
     display: flex;
     align-items: center;
@@ -27,6 +29,10 @@ body {
 /*DIV CIUDAD*/
 .container_descripcion{
     display: flex;
+}
+
+.hidden{
+    display: none;
 }
 .container_ciudades{
     display: flex;
